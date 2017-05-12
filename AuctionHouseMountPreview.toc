@@ -1,11 +1,9 @@
-## Interface: 60200
+## Interface: 70000
 ## Author: Michel van de Wetering
 ## Title: AuctionHouse Mount Preview
-## Version: 1.0
+## Version: 1.1
 ## Notes: Allows you to preview mounts in the AH interface.
 ## URL: http://www.michelvandewetering.nl/warcraft/addons/actionhousemountpreview
-## LoadOnDemand: 1
-## LoadWith: Blizzard_AuctionUI
 ## DefaultState: Enabled
 
 mounts.lua
