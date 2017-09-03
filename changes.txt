@@ -1,5 +1,8 @@
 Change history
 
+1.2
+- Update for patch 7.3
+
 1.1
 - Add support for Black Market Auction House
 - Add support for mount item/spell links (so chat links and vendors work)

@@ -1,7 +1,7 @@
-## Interface: 70200
+## Interface: 70300
 ## Author: Michel van de Wetering
 ## Title: AuctionHouse Mount Preview
-## Version: 1.1
+## Version: 1.2
 ## Notes: Allows you to preview mounts in the AH interface, Vendors and itemlinks (e.g. chat).
 ## URL: http://www.michelvandewetering.nl/warcraft/addons/actionhousemountpreview
 ## DefaultState: Enabled
