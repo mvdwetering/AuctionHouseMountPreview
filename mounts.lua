@@ -67,7 +67,7 @@ mounts[18796] = { creatureId = 14540, spellId = 23250 }  -- Swift Brown Wolf
 mounts[18797] = { creatureId = 14539, spellId = 23251 }  -- Swift Timber Wolf
 mounts[18798] = { creatureId = 14541, spellId = 23252 }  -- Swift Gray Wolf
 mounts[18902] = { creatureId = 14602, spellId = 23338 }  -- Swift Stormsaber
-mounts[19029] = { creatureId = 14744, spellId = 23509 }  -- Frostwolf Howler
+mounts[19029] = { creatureId = -14776, spellId = 23509 }  -- Frostwolf Howler
 mounts[19030] = { creatureId = 14745, spellId = 23510 }  -- Stormpike Battle Charger
 mounts[19872] = { creatureId = 15090, spellId = 24242 }  -- Swift Razzashi Raptor
 mounts[19902] = { creatureId = 15104, spellId = 24252 }  -- Swift Zulian Tiger
@@ -321,7 +321,6 @@ mounts[79802] = { creatureId = 58523, spellId = 113199 }  -- Jade Cloud Serpent
 mounts[81354] = { creatureId = 60941, spellId = 118089 }  -- Azure Water Strider
 mounts[81559] = { creatureId = 61201, spellId = 118737 }  -- Pandaren Kite
 mounts[82453] = { creatureId = 61652, spellId = 120043 }  -- Jeweled Onyx Panther
-mounts[82811] = { creatureId = 62106, spellId = 120822 }  -- Great Red Dragon Turtle
 mounts[83086] = { creatureId = 62454, spellId = 121820 }  -- Obsidian Nightwing
 mounts[83087] = { creatureId = 62458, spellId = 121838 }  -- Ruby Panther
 mounts[83088] = { creatureId = 62461, spellId = 121837 }  -- Jade Panther
@@ -359,10 +358,6 @@ mounts[87791] = { creatureId = 65030, spellId = 127271 }  -- Crimson Water Strid
 mounts[87792] = { creatureId = 65031, spellId = 127272 }  -- Orange Water Strider
 mounts[87793] = { creatureId = 65032, spellId = 127274 }  -- Jade Water Strider
 mounts[87794] = { creatureId = 65033, spellId = 127278 }  -- Golden Water Strider
-mounts[87795] = { creatureId = 65058, spellId = 127286 }  -- Black Dragon Turtle
-mounts[87797] = { creatureId = 65061, spellId = 127288 }  -- Brown Dragon Turtle
-mounts[87803] = { creatureId = 65074, spellId = 127302 }  -- Great Blue Dragon Turtle
-mounts[87805] = { creatureId = 65078, spellId = 127310 }  -- Great Purple Dragon Turtle
 mounts[89154] = { creatureId = 65851, spellId = 129552 }  -- Crimson Pandaren Phoenix
 mounts[89304] = { creatureId = 66051, spellId = 129918 }  -- Thundering August Cloud Serpent
 mounts[89305] = { creatureId = 66060, spellId = 129932 }  -- Green Shado-Pan Riding Tiger
@@ -382,12 +377,17 @@ mounts[90710] = { creatureId = 66971, spellId = 132117 }  -- Ashen Pandaren Phoe
 mounts[90711] = { creatureId = 66972, spellId = 132118 }  -- Emerald Pandaren Phoenix
 mounts[90712] = { creatureId = 66970, spellId = 132119 }  -- Violet Pandaren Phoenix
 mounts[91004] = { creatureId = 61809, spellId = 120395 }  -- Green Dragon Turtle
+mounts[91005] = { creatureId = 65061, spellId = 127288 }  -- Brown Dragon Turtle
 mounts[91006] = { creatureId = 65063, spellId = 127289 }  -- Purple Dragon Turtle
 mounts[91007] = { creatureId = 65065, spellId = 127290 }  -- Red Dragon Turtle
+mounts[91008] = { creatureId = 65058, spellId = 127286 }  -- Black Dragon Turtle
 mounts[91009] = { creatureId = 65060, spellId = 127287 }  -- Blue Dragon Turtle
+mounts[91010] = { creatureId = 62106, spellId = 120822 }  -- Great Red Dragon Turtle
 mounts[91011] = { creatureId = 65072, spellId = 127295 }  -- Great Black Dragon Turtle
 mounts[91012] = { creatureId = 65071, spellId = 127293 }  -- Great Green Dragon Turtle
+mounts[91013] = { creatureId = 65074, spellId = 127302 }  -- Great Blue Dragon Turtle
 mounts[91014] = { creatureId = 65076, spellId = 127308 }  -- Great Brown Dragon Turtle
+mounts[91015] = { creatureId = 65078, spellId = 127310 }  -- Great Purple Dragon Turtle
 mounts[91802] = { creatureId = 61589, spellId = 133023 }  -- Jade Pandaren Kite
 mounts[92724] = { creatureId = 68288, spellId = 134573 }  -- Swift Windsteed
 mounts[93168] = { creatureId = 68771, spellId = 135416 }  -- Grand Armored Gryphon
@@ -453,7 +453,7 @@ mounts[116664] = { creatureId = -59342, spellId = 171625 }  -- Dusty Rockhide
 mounts[116665] = { creatureId = -59343, spellId = 171626 }  -- Armored Irontusk
 mounts[116666] = { creatureId = -59349, spellId = 171627 }  -- Blacksteel Battleboar
 mounts[116667] = { creatureId = -59348, spellId = 171628 }  -- Rocktusk Battleboar
-mounts[116668] = { creatureId = -59347, spellId = 171629 }  -- Armored Frostboar
+mounts[116668] = { creatureId = 151623, spellId = 171629 }  -- Armored Frostboar
 mounts[116669] = { creatureId = -59346, spellId = 171630 }  -- Armored Razorback
 mounts[116670] = { creatureId = -59344, spellId = 171632 }  -- Frostplains Battleboar
 mounts[116671] = { creatureId = -59739, spellId = 171633 }  -- Wild Goretusk
@@ -480,7 +480,7 @@ mounts[116782] = { creatureId = -59754, spellId = 171839 }  -- Ironside Warwolf
 mounts[116784] = { creatureId = 87076, spellId = 171841 }  -- Trained Snarler
 mounts[116785] = { creatureId = -59759, spellId = 171842 }  -- Swift Frostwolf
 mounts[116786] = { creatureId = -59760, spellId = 171843 }  -- Smoky Direwolf
-mounts[116788] = { creatureId = -60208, spellId = 171845 }  -- Warlord's Deathwheel
+mounts[116788] = { creatureId = 150768, spellId = 171845 }  -- Warlord's Deathwheel
 mounts[116789] = { creatureId = 87503, spellId = 171846 }  -- Champion's Treadblade
 mounts[116791] = { creatureId = -60577, spellId = 171848 }  -- Challenger's War Yeti
 mounts[116792] = { creatureId = -60578, spellId = 171849 }  -- Sunhide Gronnling
@@ -504,7 +504,7 @@ mounts[128311] = { creatureId = -64426, spellId = 189364 }  -- Coalfist Gronnlin
 mounts[128422] = { creatureId = 95827, spellId = 189999 }  -- Grove Warden
 mounts[128425] = { creatureId = 91905, spellId = 189998 }  -- Illidari Felstalker
 mounts[128481] = { creatureId = -64726, spellId = 190690 }  -- Bristling Hellboar
-mounts[128526] = { creatureId = -64849, spellId = 190977 }  -- Deathtusk Felboar
+mounts[128527] = { creatureId = -64849, spellId = 190977 }  -- Deathtusk Felboar
 mounts[128671] = { creatureId = -64960, spellId = 191314 }  -- Minion of Grumpus
 mounts[128706] = { creatureId = -65040, spellId = 191633 }  -- Soaring Skyterror
 mounts[129280] = { creatureId = -65760, spellId = 193695 }  -- Prestigious War Steed
@@ -624,7 +624,7 @@ mounts[153485] = { creatureId = -78105, spellId = 247448 }  -- Darkmoon Dirigibl
 mounts[153493] = { creatureId = -76533, spellId = 243201 }  -- Demonic Gladiator's Storm Dragon
 mounts[153539] = { creatureId = -80357, spellId = 255695 }  -- Seabraid Stallion
 mounts[153540] = { creatureId = 121530, spellId = 255696 }  -- Gilded Ravasaur
-mounts[153594] = { creatureId = -80513, spellId = 256123 }  -- Xiwyllag ATV
+mounts[153594] = { creatureId = 155895, spellId = 256123 }  -- Xiwyllag ATV
 mounts[155656] = { creatureId = 132621, spellId = 258022 }  -- Lightforged Felcrusher
 mounts[155662] = { creatureId = 132620, spellId = 258060 }  -- Highmountain Thunderhoof
 mounts[156486] = { creatureId = 132622, spellId = 259202 }  -- Starcursed Voidstrider
@@ -632,12 +632,12 @@ mounts[156487] = { creatureId = 132623, spellId = 258845 }  -- Nightborne Manasa
 mounts[156798] = { creatureId = 132610, spellId = 261395 }  -- The Hivemind
 mounts[156879] = { creatureId = -82809, spellId = 262022 }  -- Dread Gladiator's Proto-Drake
 mounts[156880] = { creatureId = -82804, spellId = 262023 }  -- Sinister Gladiator's Proto-Drake
-mounts[156881] = { creatureId = -82810, spellId = 262024 }  -- Purple Gladiator's Proto-Drake
+mounts[156881] = { creatureId = -82810, spellId = 262024 }  -- Notorious Gladiator's Proto-Drake
 mounts[156882] = { creatureId = -82807, spellId = 262025 }  -- Pale Gladiator's Proto-Drake
 mounts[156883] = { creatureId = -82806, spellId = 262026 }  -- Green Gladiator's Proto-Drake
 mounts[156884] = { creatureId = -82782, spellId = 262027 }  -- Black Gladiator's Proto-Drake
 mounts[156885] = { creatureId = -82805, spellId = 262028 }  -- Gold Gladiator's Proto-Drake
-mounts[157870] = { creatureId = -83525, spellId = 263707 }  -- Zandalari Direhorn
+mounts[157870] = { creatureId = 146033, spellId = 263707 }  -- Zandalari Direhorn
 mounts[159146] = { creatureId = 135686, spellId = 267270 }  -- Kua'fon
 mounts[159842] = { creatureId = 143068, spellId = 254813 }  -- Sharkbait
 mounts[159921] = { creatureId = 136976, spellId = 266058 }  -- Tomb Stalker
@@ -648,21 +648,21 @@ mounts[161215] = { creatureId = 129898, spellId = 239049 }  -- Obsidian Krolusk
 mounts[161330] = { creatureId = 144198, spellId = 267274 }  -- Mag'har Direwolf
 mounts[161331] = { creatureId = 141163, spellId = 271646 }  -- Dark Iron Core Hound
 mounts[161479] = { creatureId = -74316, spellId = 275623 }  -- Nazjatar Blood Serpent
-mounts[161664] = { creatureId = 124557, spellId = 244712 }  -- Armored Ebony Pterrordax (PH)
+mounts[161664] = { creatureId = -92078, spellId = 244712 }  -- Spectral Pterrorwing
 mounts[161665] = { creatureId = -89376, spellId = 275837 }  -- Cobalt Pterrordax
-mounts[161666] = { creatureId = 147722, spellId = 275838 }  -- Armored Orange Pterrordax (PH)
-mounts[161667] = { creatureId = -87041, spellId = 275840 }  -- Armored Albino Pterrordax (PH)
+mounts[161666] = { creatureId = 122337, spellId = 275838 }  -- Captured Swampstalker
+mounts[161667] = { creatureId = 139833, spellId = 275840 }  -- Voldunai Dunescraper
 mounts[161773] = { creatureId = 138523, spellId = 237287 }  -- Alabaster Hyena
 mounts[161774] = { creatureId = -76708, spellId = 275841 }  -- Expedition Bloodswarmer
-mounts[161879] = { creatureId = 124727, spellId = 275868 }  -- Proudmoore Sea Scout (PH)
-mounts[161908] = { creatureId = 134925, spellId = 275859 }  -- Dusky Waycrest Gryphon (PH)
-mounts[161909] = { creatureId = 134687, spellId = 275866 }  -- Stormsong Coastwatcher (PH)
+mounts[161879] = { creatureId = 124727, spellId = 275868 }  -- Proudmoore Sea Scout
+mounts[161908] = { creatureId = 134925, spellId = 275859 }  -- Dusky Waycrest Gryphon
+mounts[161909] = { creatureId = 134687, spellId = 275866 }  -- Stormsong Coastwatcher
 mounts[161910] = { creatureId = -82161, spellId = 260173 }  -- Smoky Charger
 mounts[161911] = { creatureId = 132625, spellId = 259213 }  -- Admiralty Stallion
 mounts[161912] = { creatureId = -81693, spellId = 260172 }  -- Dapple Gray
 mounts[163042] = { creatureId = -83632, spellId = 264058 }  -- Mighty Caravan Brutosaur
 mounts[163063] = { creatureId = -87701, spellId = 278656 }  -- Spectral Phoenix
-mounts[163121] = { creatureId = -82528, spellId = 261434 }  -- Vicious War Basilisk
+mounts[163121] = { creatureId = 71394, spellId = 261434 }  -- Vicious War Basilisk
 mounts[163122] = { creatureId = -82527, spellId = 261433 }  -- Vicious War Basilisk
 mounts[163123] = { creatureId = -85888, spellId = 272481 }  -- Vicious War Riverbeast
 mounts[163124] = { creatureId = -85393, spellId = 270560 }  -- Vicious War Clefthoof
@@ -693,15 +693,15 @@ mounts[163981] = { creatureId = -38784, spellId = 280729 }  -- Frenzied Feltalon
 mounts[163982] = { creatureId = -88116, spellId = 280730 }  -- Pureheart Courser
 mounts[164250] = { creatureId = -88359, spellId = 281044 }  -- Prestigious Bloodforged Courser
 mounts[164571] = { creatureId = 145815, spellId = 281554 }  -- Meat Wagon
+mounts[164762] = { creatureId = -88974, spellId = 282682 }  -- Kul Tiran Charger
 mounts[165019] = { creatureId = -88755, spellId = 281887 }  -- Vicious Black Warsaber
 mounts[165020] = { creatureId = -88760, spellId = 281890 }  -- Vicious Black Bonesteed
 mounts[166417] = { creatureId = 139082, spellId = 237288 }  -- Onyx War Hyena
+mounts[166428] = { creatureId = 5352, spellId = 288438 }  -- Blackpaw
 mounts[166432] = { creatureId = -89750, spellId = 288495 }  -- Ashenvale Chimaera
 mounts[166433] = { creatureId = 12146, spellId = 288499 }  -- Frightened Kodo
-mounts[166434] = { creatureId = -89246, spellId = 288503 }  -- Umber Nightsaber
 mounts[166435] = { creatureId = -89247, spellId = 288505 }  -- Kaldorei Nightsaber
 mounts[166436] = { creatureId = -89249, spellId = 288506 }  -- Sandy Nightsaber
-mounts[166438] = { creatureId = 5352, spellId = 288438 }  -- Blackpaw
 mounts[166442] = { creatureId = -81959, spellId = 288587 }  -- Blue Marsh Hopper
 mounts[166443] = { creatureId = -81958, spellId = 288589 }  -- Yellow Marsh Hopper
 mounts[166463] = { creatureId = -90159, spellId = 288740 }  -- Priestess' Moonsaber
@@ -716,6 +716,44 @@ mounts[166471] = { creatureId = 41247, spellId = 288711 }  -- Saltwater Seahorse
 mounts[166518] = { creatureId = 149688, spellId = 289083 }  -- G.M.O.D.
 mounts[166539] = { creatureId = -90194, spellId = 289101 }  -- Dazar'alor Windreaver
 mounts[166705] = { creatureId = -90414, spellId = 289555 }  -- Glacial Tidestorm
+mounts[166724] = { creatureId = -90419, spellId = 289639 }  -- Bruce
+mounts[166745] = { creatureId = -84359, spellId = 266925 }  -- Siltwing Albatross
+mounts[166774] = { creatureId = -90398, spellId = 290134 }  -- Hogrus, Swine of Good Fortune
+mounts[166775] = { creatureId = -90397, spellId = 290133 }  -- Vulpine Familiar
+mounts[166776] = { creatureId = -90396, spellId = 290132 }  -- Sylverian Dreamer
+mounts[166803] = { creatureId = -89246, spellId = 288503 }  -- Umber Nightsaber
+mounts[167167] = { creatureId = -90725, spellId = 292407 }  -- Ankoan Waveray
+mounts[167170] = { creatureId = -90727, spellId = 291538 }  -- Unshackled Waveray
+mounts[167171] = { creatureId = 153839, spellId = 292419 }  -- Azshari Bloatray
+mounts[167751] = { creatureId = -92666, spellId = 294143 }  -- X-995 Mechanocat
+mounts[167894] = { creatureId = -90215, spellId = 294568 }  -- Beastlord's Irontusk
+mounts[167895] = { creatureId = 83015, spellId = 294569 }  -- Beastlord's Warwolf
+mounts[168055] = { creatureId = -91388, spellId = 295387 }  -- Bloodflank Charger
+mounts[168056] = { creatureId = -91389, spellId = 295386 }  -- Ironclad Frostclaw
+mounts[168329] = { creatureId = 153987, spellId = 296788 }  -- Mechacycle Model W
+mounts[168370] = { creatureId = 153756, spellId = 297157 }  -- Junkheap Drifter
+mounts[168408] = { creatureId = -91787, spellId = 297560 }  -- Child of Torcali
+mounts[168823] = { creatureId = 149746, spellId = 291492 }  -- Rusty Mechanocrawler
+mounts[168826] = { creatureId = 144296, spellId = 299158 }  -- Mechagon Peacekeeper
+mounts[168827] = { creatureId = 151476, spellId = 299159 }  -- Scrapforged Mechaspider
+mounts[168829] = { creatureId = -92731, spellId = 299170 }  -- Rustbolt Resistor
+mounts[168830] = { creatureId = -92730, spellId = 290718 }  -- Aerial Unit R-21/X
+mounts[169162] = { creatureId = -90421, spellId = 290328 }  -- Wonderwing 2.0
+mounts[169163] = { creatureId = -90728, spellId = 300149 }  -- Silent Glider
+mounts[169194] = { creatureId = -91238, spellId = 294039 }  -- Snapback Scuttler
+mounts[169198] = { creatureId = -91104, spellId = 294038 }  -- Royal Snapdragon
+mounts[169199] = { creatureId = -91237, spellId = 300146 }  -- Snapdragon Kelpstalker
+mounts[169200] = { creatureId = -91236, spellId = 300147 }  -- Deepcoral Snapdragon
+mounts[169201] = { creatureId = 65090, spellId = 300150 }  -- Fabious
+mounts[169202] = { creatureId = -92254, spellId = 300153 }  -- Crimson Tidestallion
+mounts[169203] = { creatureId = -92251, spellId = 300151 }  -- Inkscale Deepseeker
+mounts[170069] = { creatureId = 138174, spellId = 259741 }  -- Honeyback Harvester
+mounts[170178] = { creatureId = 145339, spellId = 304696 }  -- Wild Snapdragon
+mounts[172012] = { creatureId = -91272, spellId = 294197 }  -- Obsidian Worldbreaker
+mounts[172022] = { creatureId = -93396, spellId = 308250 }  -- Stormpike Battle Ram
+mounts[172023] = { creatureId = 14744, spellId = 306421 }  -- Frostwolf Snarler
+mounts[173297] = { creatureId = -93203, spellId = 307263 }  -- Explorer's Dunetrekker
+mounts[173299] = { creatureId = -93202, spellId = 307256 }  -- Explorer's Jungle Hopper
 
 AHMP.mounts = mounts
 

@@ -1,5 +1,8 @@
 Change history
 
+1.6
+- Update for patch 8.2.5
+
 1.5
 - Update for patch 8.1
 - Use new Battle.net API
