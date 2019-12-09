@@ -1,6 +1,8 @@
 AuctionHouse Mount Preview
 --------------------------
 
+NOTE: The functionality of this addon is now available in the normal game client, therefore this addon is deprecated
+
 This addon allows you to preview a mount in the AH window.
 Just CTRL+click a mount and it will show up in the dressing room window.
 
